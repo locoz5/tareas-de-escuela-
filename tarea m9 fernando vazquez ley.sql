@@ -77,6 +77,7 @@ SELECT BusinessEntityID, JobTitle,
  SELECT BusinessEntityID, SalesQuota, 
 
   COALESCE(CAST(SalesQuota AS VARCHAR), 'No Quota') AS SalesQuotaStatus 
-
   FROM Sales.SalesPerson; 
  
+
+prueba 1
